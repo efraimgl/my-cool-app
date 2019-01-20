@@ -1,6 +1,6 @@
 node {
     stage("My Stage") {
-        echo "My first stage"
+        echo "Checkout repository"
         git 'https://github.com/efraimgl/my-cool-app'
     }
 }
